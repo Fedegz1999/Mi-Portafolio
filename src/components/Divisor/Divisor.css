@@ -1,0 +1,49 @@
+.div1{
+    height: 700px;
+    background-image: linear-gradient( white -2%, #ffa500 );
+    width: 100%;
+}
+
+.div2{
+    height: 400px;
+    background-image: linear-gradient(#ffa500, #87355c);
+    width: 100%;
+}
+
+.div3{
+    height: 700px;
+    background-image: linear-gradient(#87355c 80%, #ffa500);
+    width: 100%;
+}
+
+.fotosobremi{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 700px;
+
+}
+
+.div4{
+    height: 900px;
+    background-image: linear-gradient(#ffa500 80%,white );
+    width: 100%;
+}
+
+.div5{
+    height: 600px;
+    background-image: linear-gradient(white, #87355c );
+    width: 100%;
+   
+}
+
+@media (max-width: 991px){
+    .div4{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .div2{
+        height: 750px;
+        padding-bottom: 20px;
+    }
+}

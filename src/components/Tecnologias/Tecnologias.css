@@ -1,0 +1,68 @@
+.skill{ 
+    width: 100px;
+	height: 100px;
+    position: relative;
+    box-sizing: border-box;
+	border: 1px #ffa500 solid;
+	border-radius: 10%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+    top: 40px;
+
+    }
+
+    .skill:hover{
+        border: 2px white solid;
+        margin-top: -10px;
+        transition: 0.5s;
+        border-radius: 40%;
+    }
+
+
+
+
+
+.tecnologias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title{
+    text-align: center;
+    color: #ffa500;
+    font-size: 45px;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 0 rgb(0, 0, 0);
+    font-weight: 1000;
+
+}
+
+#react:hover{
+    content: 'React';
+    color-interpolation-filters: white;
+}
+
+@media (max-width: 991px){
+    .tecnologias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+        row-gap: 50px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}

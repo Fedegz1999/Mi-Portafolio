@@ -1,0 +1,21 @@
+.frase{
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  margin: 0 auto;
+  display: center;
+  left: 15%;
+}
+
+.fed{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nombre{
+  color: purple;
+  font-size: 45px;
+  font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 0 rgb(0, 0, 0);
+  font-weight: 1000;
+}
