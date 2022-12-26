@@ -137,18 +137,18 @@
 	.avioncito{
 		display: grid;
 		position: relative;
-		top: -220px;
-		left: 230px;
+		top: -200px;
+		left: 200px;
 	}
 	.mate{
 		position: relative;
 		width: 10px;
 		top: 0px;
-		left: 100px;
+		left: 84px;
 	}
 	.viaje{
 		position: relative;
-		top: -120px;
+		top: -100px;
 	}
 	.ft{
 		position: relative;

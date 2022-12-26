@@ -155,6 +155,8 @@ padding-top: 0px;
         grid-column-gap: 0px;
         padding-top: 0px;
         left: 15%;
+        width: fit-content;
+        background-color: yellowgreen;
         }
        .modal{   
         position: relative;
