@@ -24,12 +24,11 @@
 }
 
 .boton2{
-    background: linear-gradient(102deg, #3cff00 1%, #2a9401,  #458735 100%);
+    background-color: rgb(3, 94, 3);
     color: #ffffff;
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: .25rem;
-    min-width: 200px;
+    text-align: center;
+    border-radius: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
 }

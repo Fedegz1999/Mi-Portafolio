@@ -7,6 +7,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { red, blue, purple } from '@mui/material/colors';
 
+
 declare module "@mui/material/styles" {
   interface CustomPalette {
     neutral: {

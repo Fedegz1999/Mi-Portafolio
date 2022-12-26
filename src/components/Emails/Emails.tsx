@@ -7,18 +7,21 @@ import './Emails.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DownloadIcon from '@mui/icons-material/Download';
-//import cv from '../../cv.pdf'
 import { useState } from 'react'
 
-function Emails(): JSX.Element {
 
+const templei:string = `${process.env.REACT_APP_TEMPLATE}`
+const servi:string = `${process.env.REACT_APP_SERVICIO}`
+const codigo:string = `${process.env.REACT_APP_EMAIL_ID}`
+
+function Emails(): JSX.Element {
 
   const [show, setShow] = useState<any>(false);
 
 
     const sendEmail = (event: any) => {
         event.preventDefault(); 
-        emailjs.sendForm('service_fcc3w5g','template_timob24',event.target,'YiicBY5YcoRtUxbJJ')
+        emailjs.sendForm(servi,templei ,event.target,codigo)
         .then(response => console.log(response))
         .catch(error => console.log(error))
       }
@@ -53,9 +56,12 @@ function Emails(): JSX.Element {
     focused
 />
             <hr />
-            {!show ?
+            
             <button className='boton' onClick={enviado}>Enviar</button>
-            : <button disabled className='boton2'>Enviado</button>}
+            {show ?
+            <p className='boton2'>ENVIADO</p>
+            : null}
+            
           </form>
 
           </div>
