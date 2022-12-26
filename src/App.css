@@ -19,3 +19,10 @@
   text-shadow: 1px 0 rgb(0, 0, 0);
   font-weight: 1000;
 }
+
+@media (max-width: 991px){
+.frase{
+width: 300px;
+height: 400px;
+}
+}

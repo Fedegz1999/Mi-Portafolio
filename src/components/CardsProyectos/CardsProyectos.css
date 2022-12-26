@@ -149,10 +149,12 @@ padding-top: 0px;
 
     }
     .proyect{
+        position: relative;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-column-gap: 0px;
         padding-top: 0px;
+        left: 15%;
         }
        .modal{   
         position: relative;

@@ -8,6 +8,7 @@ import Mifoto from '../Media/mifoto.jpg'
 function Avatar(): JSX.Element {
   return (
     
+      <div className='ft'>
     <div className='foto'>
     <div className='container'>
         <div className="avatar">
@@ -18,7 +19,7 @@ function Avatar(): JSX.Element {
   <h1>Federico Gutierrez</h1>
   <br></br>
   <div className="linea"></div>
-
+  </div>
   <div className='cel'>
   <h1 className='sobreyo'>Sobre Mí</h1>
       <h5 className='textito'>¡Hola!, soy Federico y tengo 23 años.
