@@ -26,3 +26,15 @@ width: 300px;
 height: 400px;
 }
 }
+
+
+*::-webkit-scrollbar{
+  width: 13px;
+  background: grey;
+
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color:#7100a5;
+  border-radius: 25px;
+}
