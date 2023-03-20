@@ -1,7 +1,4 @@
-import React from 'react'
 import emailjs  from '@emailjs/browser'
-import Box from '@mui/material/Box';
-import Input from '@mui/material/Input';
 import TextField from '@mui/material/TextField';
 import './Emails.css'
 import GitHubIcon from '@mui/icons-material/GitHub';

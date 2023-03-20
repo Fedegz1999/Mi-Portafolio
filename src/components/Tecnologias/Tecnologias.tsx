@@ -11,8 +11,9 @@ import node from '../Media/node.png'
 import typeS from '../Media/type.png'
 import git from '../Media/git.png'
 import postg from '../Media/postg.png'
-
-
+import taildwind from '../Media/taildwind.png'
+import next from '../Media/nextjs.png'
+import styled from '../Media/styled.png'
 
 
 function Tecnologias(): JSX.Element {
@@ -32,6 +33,9 @@ function Tecnologias(): JSX.Element {
     <abbr title='TypeScript'><img className='skill' src={typeS}></img></abbr>
     <abbr title='GitHub'><img className='skill' src={git}></img></abbr>
     <abbr title='PostgreSQL'><img className='skill' src={postg}></img></abbr>
+    <abbr title='Taildwind CSS'><img className='skill' src={taildwind}></img></abbr>
+    <abbr title='Next.JS'><img className='skill' src={next}></img></abbr>
+    <abbr title='Styled Components'><img className='skill' src={styled}></img></abbr>
         </div>
         </div>
         </div>

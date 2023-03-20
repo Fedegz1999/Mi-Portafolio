@@ -1,12 +1,13 @@
 import { Button } from '@mui/material'
-import React from 'react'
+
 import './CardsProyectos.css'
 import TheCornerMovies from '../Media/thecornermovies.png'
 import Juegos from '../Media/juego.png'
-import Planeta from '../Media/planeta.png'
+import Emoji from '../Media/emoji.png'
+import Futbol from '../Media/futbol-live.png'
 import { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
-import Figure from 'react-bootstrap/Figure';
+
 import WebAssetIcon from '@mui/icons-material/WebAsset';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -31,13 +32,24 @@ detalle: "•	Página de videojuegos. Implementación de base de datos con Postg
 },
 {
 id:3,
-nombre: "App Countries",
-desc: "Página realizada individualmente con temática orientada en videojuegos. Se puede ver los detalles, crear videojuegos, filtrarlos y más.",
+nombre: "Emoji List",
+desc: "Sitio web realizado individualmente con temática orientada a los emojis más famosos. Se los puede buscar por nombre o temática",
 informacion: "Estoa de una buena info2",
-img: Planeta,
-repo: "https://github.com/Fedegz1999/pi-individual",
-detalle: "•	Página de países Implementación de base de datos con PostgresSQL y Sequelize en el lado Back-end. También implementé Redux, React y CSS en el lado del Front-end. Se diseñó y desarrolló una App de países que incluía : búsquedas, filtrados, ordenación y creación de actividades.  •	Aptitudes: JavaScript · React.js · Redux.js · Node.js · Express.js · Sequelize.js"
+img: Emoji,
+repo: "https://github.com/Fedegz1999/Emojis-List",
+deploy: "https://emojislist.vercel.app/",
+detalle: "•Página básica sobre emojis con la implementación de Next.js, Typescript, Taildwind css y React. Fue mi primer sitio web utilizando estas tecnologías que en ese momento eran nuevas. Se puede buscar cada emoji por nombre, similitud o temática.",
 },
+{
+  id:4,
+  nombre: "Futbol-live",
+  desc: "Página realizada para los amantes del futbol y las estadísticas. Se pueden ver información sobre las ligas más famosas, los partidos en vivo y estadísticas.",
+  informacion: "Estoa de una buena info2",
+  img: Futbol,
+  repo: "https://github.com/Fedegz1999/AppFutbol",
+  deploy: "https://app-futbol-alpha.vercel.app",
+  detalle: "•Pagina sobre estadísticas mundiales de futbol. Es un sitio web creado con Next.js, Typescript, Taildwind CSS, Redux, Notiflix y Node.js. Se trata de un sitio en el cual se puede ver las principales 5 ligas del mundo incluyendo sus mayores anotadores, asistentes y tabla de puntuación. También cuenta con la posibilidad de seguir el partido en vivo y ver los partidos de hoy, con sus datos y jugadores incluyendo todas las ligas de Latam."
+  },
 
 ]
 
