@@ -27,7 +27,7 @@ function Avatar(): JSX.Element {
   <div className='cel'>
   <h1 className='sobreyo'>Sobre Mí</h1>
       <h5 className='textito'>¡Hola! me llamo Federico y vivo en Argentina. Soy un desarrollador front-end con habilidades tanto en diseño como en programación. Me apasiona el aprendizaje continuo y siempre estoy buscando nuevas tecnologías y conceptos para mejorar mi conocimiento y habilidades.
-Me considero una persona resolutiva y extrovertida, lo que me permite trabajar de manera eficiente bajo presión y en situaciones que requieren toma de decisiones rápidas. Estoy emocionado por seguir aprendiendo y creciendo como desarrollador y colaborar en proyectosdesafiantes y emocionantes. </h5>
+Me considero una persona resolutiva y extrovertida, lo que me permite trabajar de manera eficiente bajo presión y en situaciones que requieren toma de decisiones rápidas. Estoy emocionado por seguir aprendiendo y creciendo como desarrollador y colaborar en proyectos desafiantes y emocionantes. </h5>
 </div>
 <div className='icons'>
 <div className='mate'>
