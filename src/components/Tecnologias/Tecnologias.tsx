@@ -14,6 +14,8 @@ import postg from '../Media/postg.png'
 import taildwind from '../Media/taildwind.png'
 import next from '../Media/nextjs.png'
 import styled from '../Media/styled.png'
+import vite from '../Media/vite.png'
+import firebase from '../Media/firebase.png'
 
 
 function Tecnologias(): JSX.Element {
@@ -36,6 +38,8 @@ function Tecnologias(): JSX.Element {
     <abbr title='Taildwind CSS'><img className='skill' src={taildwind}></img></abbr>
     <abbr title='Next.JS'><img className='skill' src={next}></img></abbr>
     <abbr title='Styled Components'><img className='skill' src={styled}></img></abbr>
+    <abbr title='Vite JS'><img className='skill' src={vite}></img></abbr>
+    <abbr title='Firebase'><img className='skill' src={firebase}></img></abbr>
         </div>
         </div>
         </div>

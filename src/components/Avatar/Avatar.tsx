@@ -7,7 +7,11 @@ import Mifoto from '../Media/mifoto.jpg'
 
 function Avatar(): JSX.Element {
   return (
-    
+    <>
+      <h1 className="fed">Front-end Developer & Digital Designer</h1>
+      <h4 className="nombre">Me gusta crear, diseñar y aprender todos los días</h4>
+    <div className='containerYo'>
+
       <div className='ft'>
     <div className='foto'>
     <div className='container'>
@@ -22,11 +26,10 @@ function Avatar(): JSX.Element {
   </div>
   <div className='cel'>
   <h1 className='sobreyo'>Sobre Mí</h1>
-      <h5 className='textito'>Me llamo Federico, soy de Argentina y tengo 23 años.
-Estudié en la universidad comunicación social con orientación audiovisual durante 3 años, me interese por el diseño digital. Ese camino me llevo al desarrollo web y un día decidí realizar un bootcamp de programación.
-Hoy ya finalizado ese proceso, con un hermoso camino recorrido, muchos conocimientos y con muchas ganas de seguir en este mundo de la tecnología.
-Gracias a los distintas habilidades obtenidas en mis diversos estudios y mi corta pero valiosa experiencia, soy capaz de desenvolverme rápidamente en el ámbito. Siempre estoy en busca de nuevos retos y intentando aprender conceptos nuevos día a día. </h5>
+      <h5 className='textito'>¡Hola! me llamo Federico y vivo en Argentina. Soy un desarrollador front-end con habilidades tanto en diseño como en programación. Me apasiona el aprendizaje continuo y siempre estoy buscando nuevas tecnologías y conceptos para mejorar mi conocimiento y habilidades.
+Me considero una persona resolutiva y extrovertida, lo que me permite trabajar de manera eficiente bajo presión y en situaciones que requieren toma de decisiones rápidas. Estoy emocionado por seguir aprendiendo y creciendo como desarrollador y colaborar en proyectosdesafiantes y emocionantes. </h5>
 </div>
+<div className='icons'>
 <div className='mate'>
 <div className="avatar2">
 			<img src={Mate} alt="Skytsunami" />
@@ -42,7 +45,10 @@ Gracias a los distintas habilidades obtenidas en mis diversos estudios y mi cort
 			<img src={Avion} alt="Skytsunami" />
       </div>
       </div>
+      </div>
         </div>
+        </div>
+        </>
   )
 }
 

@@ -48,14 +48,15 @@
     text-align: center;
     justify-content: center;
 	align-items: center;
-    
     margin-top: 15px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
     text-shadow: 0.3px 0 rgb(0, 0, 0);
+	
 }
 
 .sobreyo{
+	text-align: center;
     color: purple;
     font-size: 45px;
     font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -130,6 +131,7 @@
 }
 
 @media (max-width: 991px){
+	
 	.textito{
 		width:auto;
 		text-align: center;
@@ -138,17 +140,21 @@
 		display: grid;
 		position: relative;
 		top: -200px;
-		left: 200px;
+		margin: auto;
+		left: 0%;
 	}
 	.mate{
 		position: relative;
 		width: 10px;
-		top: 0px;
-		left: 84px;
+		top: 0px;	
+		margin: auto;
+		left: 20%;
 	}
 	.viaje{
 		position: relative;
 		top: -100px;
+		margin: auto;
+		left: -30%;
 	}
 	.ft{
 		position: relative;
@@ -163,3 +169,27 @@
 	animation: none;
 }
 }
+
+.containerYo{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fed{
+	font-size: 20px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .nombre{
+	color: purple;
+	font-size: 45px;
+	font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow: 1px 0 rgb(0, 0, 0);
+	font-weight: 1000;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+  }

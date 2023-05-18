@@ -15,12 +15,12 @@ function App(): JSX.Element {
     <div>
       <Navbarr/>
       <Divisor/>   
-      <div className='frase'>
-      <h1 className='nombre'>Front-end Developer & Digital Designer</h1>
-      <h4 className='fed'>Me gusta crear, diseñar y aprender todos los días</h4>
+      <div className='todo'>
+     <div className='avt'>
       <Avatar/>
       </div>
       <Animacion/>
+    </div>
     </div>
       
   );

@@ -5,6 +5,8 @@ import TheCornerMovies from '../Media/thecornermovies.png'
 import Juegos from '../Media/juego.png'
 import Emoji from '../Media/emoji.png'
 import Futbol from '../Media/futbol-live.png'
+import listaTareas from '../Media/listaTareas.png'
+import formulario from '../Media/formulario.png'
 import { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 
@@ -50,7 +52,26 @@ detalle: "•Página básica sobre emojis con la implementación de Next.js, Typ
   deploy: "https://app-futbol-alpha.vercel.app",
   detalle: "•Pagina sobre estadísticas mundiales de futbol. Es un sitio web creado con Next.js, Typescript, Taildwind CSS, Redux, Notiflix y Node.js. Se trata de un sitio en el cual se puede ver las principales 5 ligas del mundo incluyendo sus mayores anotadores, asistentes y tabla de puntuación. También cuenta con la posibilidad de seguir el partido en vivo y ver los partidos de hoy, con sus datos y jugadores incluyendo todas las ligas de Latam."
   },
-
+  {
+    id:5,
+    nombre: "Lista de Tareas",
+    desc: "Página realizada para las personas que quieran hacer una lista de tareas del pendientes del dia y cuando la cumplan, la tachen.",
+    informacion: "Estoa de una buena info2",
+    img: listaTareas,
+    repo: "https://github.com/Fedegz1999/Lista-de-tareas",
+    deploy: "https://lista-de-tareas-mocha.vercel.app/",
+    detalle: "•Pagina en la cual se puede hacer una lista de tareas diarias, se pueden editar, tachar y eliminar. Es un sitio web basico hecho en React con Bootstrap."
+    },
+    {
+      id:6,
+      nombre: "Formulario",
+      desc: "Página en la que se puede realizar un formulario (similar el de Google) y luego se puede ver las respuestas.",
+      informacion: "Estoa de una buena info2",
+      img: formulario,
+      repo: "https://github.com/Fedegz1999/Greydive-challenge",
+      deploy: "https://greydive-challenge-blond.vercel.app/",
+      detalle: "•Pagina realizada para un challengue en la cual realize un formulario que envia la información a Firebase. El proyecto esta hecho en React con TaildWind css."
+      },
 ]
 
 
